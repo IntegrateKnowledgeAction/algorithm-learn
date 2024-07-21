@@ -49,8 +49,6 @@ public class Coin {
             }
         }
         return dp[amount] == amount + 1 ? -1 : dp[amount];
-
-
     }
 
 }

@@ -3,6 +3,39 @@
   <component name="LeetcodeEditorlabuladong">
     <option name="projectConfig">
       <map>
+        <entry key="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[111]二叉树的最小深度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/doc/content/[111]二叉树的最小深度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn111" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[111]二叉树的最小深度.java" />
+              <option name="titleSlug" value="minimum-depth-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/doc/content/[34]在排序数组中查找元素的第一个和最后一个位置.md" />
+              <option name="frontendQuestionId" value="leetcode.cn34" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.java" />
+              <option name="titleSlug" value="find-first-and-last-position-of-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[76]最小覆盖子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/doc/content/[76]最小覆盖子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn76" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[76]最小覆盖子串.java" />
+              <option name="titleSlug" value="minimum-window-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[LCR 083]全排列.java">
           <value>
             <LeetcodeEditor>
@@ -11,6 +44,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[LCR 083]全排列.java" />
               <option name="titleSlug" value="VvJkup" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[LCR 175]计算二叉树的深度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/doc/content/[LCR 175]计算二叉树的深度.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 175" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/c7/fb1fxm2d1cqddkdnf92w3brh0000gn/T/leetcode/editor/cn/[LCR 175]计算二叉树的深度.java" />
+              <option name="titleSlug" value="er-cha-shu-de-shen-du-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

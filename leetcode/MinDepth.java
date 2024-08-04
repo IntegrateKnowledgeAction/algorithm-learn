@@ -1,6 +1,8 @@
 import tree.TreeNode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class MinDepth {
 
@@ -37,6 +39,31 @@ public class MinDepth {
             level++;
         }
         return level;
+    }
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            List<Integer> level = new ArrayList<>();
+            int size = queue.size();
+            while (size-- > 0) {
+                TreeNode node = queue.poll();
+                level.add(node.val);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+            }
+            result.add(level);
+        }
+        return result;
 
     }
 }

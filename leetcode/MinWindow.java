@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class MinWindow {
@@ -41,8 +42,24 @@ public class MinWindow {
         return len == Integer.MAX_VALUE ? "" : s.substring(start, start + len);
     }
 
-    // 注意：java 代码由 chatGPT🤖 根据我的 cpp 代码翻译，旨在帮助不同背景的读者理解算法逻辑。
-// 本代码不保证正确性，仅供参考。如有疑惑，可以参照我写的 cpp 代码对比查看。
+
+    public int lengthOfLongestSubstring(String s) {
+        int left = 0, right = 0;
+        HashSet<Character> window = new HashSet<>();
+        int res = 0;
+        int len = s.length();
+        while (right < len) {
+            while (right < len && !window.contains(s.charAt(right))) {
+                window.add(s.charAt(right));
+                right++;
+            }
+            res = Math.max(res, right - left);
+            window.remove(s.charAt(left));
+            left++;
+        }
+        return res;
+    }
+
 
 }
 
